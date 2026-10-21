@@ -12,10 +12,6 @@ Use Terraform to print the current public URL:
 terraform output -raw application_url
 ```
 
-The URL currently configured for this deployment is:
-
-<http://shopease-alb-1899170923.us-east-1.elb.amazonaws.com>
-
 The site is currently served over HTTP, not HTTPS.
 
 ## How the deployment works
